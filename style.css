@@ -1,109 +1,118 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 6%;
-    background-image: url(img/sala-de-estar.jpeg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6%;
+  background-image: url(img/sala-de-estar.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 section {
-    height: 34rem;
+  height: 34rem;
+  box-shadow: 10px 10px 15px #000;
 }
 
 .secao-entrar {
-    background-color: #b2bdc2;
-    width: 22rem;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+  background-color: #b2bdc2;
+  width: 22rem;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .logo {
-    padding: 15px;
+  padding: 15px;
+  width: 30px;
+  height: 30px;
 }
 
 h1 {
-    margin-top: 80px;
-    font-family: arial, sans-serif;
-    font-size: 25px;
-    text-align: center;
+  margin-top: 60px;
+  font-family: arial, sans-serif;
+  font-size: 25px;
+  text-align: center;
 }
 
 input.texto {
-    width: 330px;
-    height: 30px;
-    border-radius: 4px;
-    padding-left: 5px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    outline: none;
+  width: 330px;
+  height: 30px;
+  border-radius: 4px;
+  padding-left: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
 }
 
 input.texto::placeholder {
-    font-family: Arial, sans-serif;
-    color: #292828;
+  font-family: Arial, sans-serif;
+  color: #292828;
 }
 
 input.lembrar {
-    margin-left: 10px;
-    margin-right: 4px;
-    cursor: pointer;
+  margin-left: 10px;
+  margin-right: 4px;
+  cursor: pointer;
 }
 
 input.lembrar:checked {
-    background-color: #666ee9;
-    border-color: #666ee9;
+  background-color: #666ee9;
+  border-color: #666ee9;
 }
 
 label {
-    font-family: arial, sans-serif;
-    font-size: 10pt;
+  font-family: arial, sans-serif;
+  font-size: 10pt;
 }
 
 .nova-senha {
-    display: block;
-    margin: 5px 0px 5px 10px;
-    text-decoration: none;
-    color: #000;
+  display: block;
+  margin: 5px 0px 5px 10px;
+  text-decoration: none;
+  color: #000;
 }
 
 .nova-senha:hover {
-    color: #4359b9;
-    text-decoration: underline;
-
+  color: #4359b9;
+  text-decoration: underline;
 }
 
 button {
-    width: 330px;
-    height: 30px;
-    margin: 15px 0px 15px 10px;
-    background-color: #e9e7ca;
-    border-radius: 4px;
-    border: solid #fff;
-    transition: 0.4s;
+  width: 330px;
+  height: 30px;
+  margin: 15px 0px 15px 10px;
+  font-weight: bold;
+  background-color: #f8f8f3;
+  border-radius: 4px;
+  border: solid #fff;
+  transition: 0.4s;
 }
 
 button:hover {
-    border: none;
-    background-color: #000;
-    color: #fff;
+  border: none;
+  background-color: #000;
+  color: #fff;
 }
 
 p {
-    font-family: arial, sans-serif;
-    text-align: center;
-    font-size: 11pt;
+  font-family: arial, sans-serif;
+  text-align: center;
+  font-size: 11pt;
 }
 
 .secao-imagem {
-    width: 34rem;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    background-image: url();
+  width: 34rem;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-image: url(img/caderno.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
