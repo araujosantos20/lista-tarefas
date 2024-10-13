@@ -11,17 +11,33 @@
     <section class="secao-entrar" id="secao-entrar">
       <header><img src="img/logo.png" alt="Logo Mateus" class="logo" /></header>
       <h1>Entre e liste suas ideias</h1>
-      <input class="texto" type="text" placeholder="Digite seu Usuário" />
-      <input class="texto" type="password" placeholder="Digite sua Senha" />
+      <input
+        id="usuario"
+        class="texto"
+        type="text"
+        placeholder="Digite seu Usuário"
+        required
+      />
+      <input
+        id="senha"
+        class="texto"
+        type="password"
+        placeholder="Digite sua Senha"
+        required
+      />
+      <p id="erro"></p>
       <input class="lembrar" type="checkbox" id="lembrarMe" /><label
         for="lembrarMe"
         >Lembrar-me</label
       >
       <a href="novaSenha.html" class="nova-senha">Esqueci minha senha</a>
-      <button id="entrar" class="entrar">Entrar</button>
+      <button id="entrar" class="entrar" type="submit" onclick="validarDados()">
+        Entrar
+      </button>
       <p>Ou</p>
       <a href="cadastro.html"><button class="cadastrar">Cadastre-se</button></a>
     </section>
     <section class="secao-imagem"></section>
+    <script src="app.js"></script>
   </body>
 </html>

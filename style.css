@@ -116,3 +116,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#erro {
+  color: #f52929;
+  font-size: 4pt;
+}
