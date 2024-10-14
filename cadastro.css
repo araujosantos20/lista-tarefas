@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-image: url(img/sala-cadastro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  height: 34rem;
+  width: 40rem;
+  margin: 150px auto;
+  background-color: #ffffff91;
+  border-radius: 12px;
+  box-shadow: -10px 10px 20px #353434;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+h1 {
+  font-family: arial, sans-serif;
+  font-size: 24pt;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.texto {
+  display: block;
+  margin-top: 25px;
+  height: 45px;
+  width: 83%;
+  padding-left: 15px;
+  margin-left: 40px;
+  outline: none;
+  border-bottom: solid 3px #000;
+  background-color: #ffffff00;
+  transition: 0.3s;
+}
+
+.texto::placeholder {
+  font-family: arial, sans-serif;
+  font-size: 12pt;
+  color: #000;
+  transition: 0.2s;
+}
+
+.texto:active,
+.texto:focus {
+  border-bottom: solid 3px #0e7455;
+}
+
+button {
+  height: 45px;
+  width: 85.5%;
+  margin-top: 25px;
+  margin-left: 40px;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  cursor: pointer;
+  box-shadow: -5px 5px 20px #000;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}

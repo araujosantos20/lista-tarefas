@@ -4,9 +4,6 @@ function validarDados() {
   let password = document.getElementById("senha").value;
   let erro = document.getElementById("erro");
 
-  let validarEmail = "mateus.sanjo20@gmail.com";
-  let validarUsuario = "admin";
-  let validarSenha = "1234";
   let validarLogin = false;
 
   for (let i in usuarios) {

@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css" />
   </head>
-
   <body>
+    <div id="confirmacao"></div>
     <section class="secao-entrar" id="secao-entrar">
       <header><img src="img/logo.png" alt="Logo Mateus" class="logo" /></header>
-      <h1>Entre e liste suas ideias</h1>
+      <h1>Cadastre-se aqui</h1>
+      <input
+        id="name"
+        class="texto"
+        type="text"
+        placeholder="Digite seu Nome"
+      />
+      <input
+        id="email"
+        class="texto"
+        type="email"
+        placeholder="Digite seu Email"
+      />
       <input
         id="usuario"
         class="texto"
@@ -25,20 +37,16 @@
         placeholder="Digite sua Senha"
         required
       />
-      <p id="erro"></p>
-      <input class="lembrar" type="checkbox" id="lembrarMe" /><label
-        for="lembrarMe"
-        >Lembrar-me</label
+      <p id="erro" class="erro"></p>
+      <button
+        id="cadastrar"
+        class="cadastrar"
+        onclick="verificarDadoExistente()"
       >
-      <a href="novaSenha.html" class="nova-senha">Esqueci minha senha</a>
-      <button id="entrar" class="entrar" type="submit" onclick="validarDados()">
-        Entrar
+        Cadastrar
       </button>
-      <p>Ou</p>
-      <a href="cadastro.html"><button class="cadastrar">Cadastre-se</button></a>
     </section>
-    <section class="secao-imagem"></section>
-    <script src="app.js"></script>
+    <script src="cadastro.js"></script>
     <script src="dados.js"></script>
   </body>
 </html>
